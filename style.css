@@ -11,6 +11,7 @@
 :root{
     --bg-color: #96B6C5;
     --bg-color-main: #EEE0C9;
+    --bg-color-footer: #102C57;
     --title-color: #F1F0E8;
 }
 
@@ -40,6 +41,7 @@ header h1{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-bottom: 2rem;
 }
 
 .section-container h2{
@@ -75,3 +77,30 @@ div.section-content a img{
     border: none;
 }
 
+#container-footer{
+    background-color: var(--bg-color-footer);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 2rem;
+}
+#container-footer .social a{
+    text-align: center;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    margin: 1rem;
+    
+}
+#container-footer .social a img{
+    width: 35px;
+    height: 35px;
+}
+#container-footer .copyright p{
+    color: var(--title-color);
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    padding: 1rem;
+}
+#container-footer .copyright a{
+    color: var(--title-color);
+}
