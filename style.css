@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #96B6C5;
+    --card-color: #ADC4CE;
+    --title-color: #F1F0E8;
+    --text-color: #EEE0C9;
+}
+
+html, body{
+    background-color: var(--bg-color);
+}
+
+header h1{
+    color: var(--title-color);
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 4rem;
+    padding: 3rem;
+}
+
+#container-main{
+    background-color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.section-container h2{
+    flex: 1 0 220px;
+    font-size: 2rem;
+    font-family: "Inter";
+    font-weight: 300;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+}
+.section-container p{
+    flex: 1 0 220px;
+    font-size: 1rem;
+    font-family: "Inter";
+    text-align: center;
+    padding: 0.5rem;
+}
+div.section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.section-content a img{
+    flex: 1 0 250PX;
+    max-width: 100%;
+    width: 350px;
+    height: 500px;
+    object-fit:fill;
+    margin: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
