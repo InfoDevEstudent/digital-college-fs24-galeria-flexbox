@@ -4,13 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 :root{
     --bg-color: #96B6C5;
-    --card-color: #ADC4CE;
+    --bg-color-main: #EEE0C9;
     --title-color: #F1F0E8;
-    --text-color: #EEE0C9;
 }
 
 html, body{
@@ -32,7 +33,7 @@ header h1{
 }
 
 #container-main{
-    background-color: var(--text-color);
+    background-color: var(--bg-color-main);
     display: flex;
     flex-direction: column;
     justify-content: center;
